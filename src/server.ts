@@ -22,4 +22,4 @@ server.use((req: Request, res: Response)=>{
     res.status(404).send('Página não encontrada!');
 });
 
-server.listen(process.env.PORT);
+server.listen(3000);
