@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "team1": "Qatar",
+      "team2": "Equador",
+      "place": "",
+      "scoreTeam1": "",
+      "scoreTeam2": "",
+      "date": "21/11 (Seg) - 13h00",
+      "group": "A",
+      "image1": "assets/bandeiras/qatar.png",
+      "image2": "assets/bandeiras/equador.png"
+    },
+    {
+      "id": 2,
+      "team1": "Senegal",
+      "team2": "Holanda",
+      "place": "",
+      "scoreTeam1": "",
+      "scoreTeam2": "",
+      "date": "21/11 (Seg) - 07h00",
+      "group": "A",
+      "image1": "assets/bandeiras/senegal.png",
+      "image2": "assets/bandeiras/holanda.png"
+    },
+    {
+      "id": 3,
+      "team1": "Inglaterra",
+      "team2": "Irã",
+      "place": "",
+      "scoreTeam1": "",
+      "scoreTeam2": "",
+      "date": "21/11 (Seg) - 10h00",
+      "group": "B",
+      "image1": "assets/bandeiras/inglaterra.png",
+      "image2": "assets/bandeiras/ira.png"
+    },
+    {
+      "id": 4,
+      "team1": "Estados Unidos",
+      "team2": "Europa",
+      "place": "",
+      "scoreTeam1": "",
+      "scoreTeam2": "",
+      "date": "21/11 (Seg) - 16h00",
+      "group": "B",
+      "image1": "assets/bandeiras/estados_unidos.png",
+      "image2": "assets/bandeiras/undefined.png"
+    }
+  ]

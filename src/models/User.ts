@@ -1,16 +1,20 @@
-type User = {
+import { Schema, Model, model, connection } from 'mongoose'
+
+type UserType = {
   name: string,
   email: string,
   password: string
 }
 
-const data: User[] = [
-  {name: 'Leonardo', email: 'leoomelo@gmail.com', password: '123456'},
-  {name: 'Pedro', email: 'pedro@gmail.com', password: '123456'}
-]
+const schema = new Schema<UserType>({
+  name: { type: String, required: true },
+  email: { type: String, required: true },
+  password: { type: String, required: true }
+})
 
-export const User = {
-  getAll: (): User[] => {
-    return data
-  }
-}
+const modelName: string = 'User'
+
+const userModel = (connection && connection.models[modelName]) ?
+  (connection.models[modelName] as Model<UserType>) : model<UserType>(modelName, schema)
+
+export default userModel
