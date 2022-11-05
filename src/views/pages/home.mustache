@@ -1,10 +1,16 @@
 {{>partials/header}}
 
-<h2>Users</h2>
+<h2>Suas apostas</h2>
 <ul>
-    {{#users}}
-        {{>partials/user}}
-    {{/users}}
+    {{#bets}}
+        {{>partials/bet}}
+    {{/bets}}
+</ul>
+<h2>Matches</h2>
+<ul>
+    {{#matches}}
+        {{>partials/match}}
+    {{/matches}}
 </ul>
 
 {{>partials/footer}}
